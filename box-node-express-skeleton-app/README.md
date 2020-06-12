@@ -43,6 +43,7 @@
     boxConfigFilePath: Path to your Box Config file generated when creating a new Box App.
     // For example, boxConfigFilePath: "config.json"
     ```
+4. **IMPORTANT** Please make sure your .gitignore file on the root folder of this repo is updated to reflect the location of your config file. I.e. do not check it into public repos, as that contains private information to your Box instance.
 
 #### Auth0 Configuration
 Additionally, since you manage the identity and authorization for your Box App Users within your Node Express application, you'll need an identity service to fully utilize JWT authentication on behalf of your App Users.
