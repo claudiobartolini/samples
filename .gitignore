@@ -4,6 +4,7 @@ npm-debug.log
 box-node-express-skeleton-app/app/config/local.js
 box-node-express-skeleton-app/app/config/production.js
 box-node-express-skeleton-app/app/*_config.json
+box-node-express-skeleton-app/app/config/*
 config.json
 package-lock.json
 
